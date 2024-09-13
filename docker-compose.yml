@@ -1,0 +1,21 @@
+services:
+  react-dashboard:
+    container_name: react-dashboard
+    image: react-dashboard
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    volumes:
+      - .:/app
+      - /app/node_modules
+    networks:
+      - aloper-prod_default # Liên kết với mạng đã tồn tại
+
+networks:
+  aloper-prod_default: # Sử dụng mạng external
+    external: true
+
+
+

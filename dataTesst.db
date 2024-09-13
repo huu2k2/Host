@@ -1,0 +1,108 @@
+{
+    "name": "80 DUONG QUANG HAM",
+    "quantity": 12,
+    "cityCode": 2,
+    "districtCode": 27,
+    "wardCode": 775,
+    "parking": true,
+    "stair": false,
+    "washing": false,
+    "sercuri": false,
+    "wifi": true,
+    "elevator": false,
+    "hallwayCleaning": false,
+    "fingerprintLock": false,
+    "freeHours": true,
+    "cleanRoom": false,
+    "pet": false,
+    "cammera": false,
+    "address": "Xã Pải Lủng, Huyện Mèo Vạc, Tỉnh Hà Giang",
+    "isAgency": true,
+    "isExclusive": true,
+    "pass": "",
+    "users": [
+        "3834590f-81e7-48ef-948d-789f0441291c",
+        "fcf38019-1731-4b3c-abbe-09eed112f2b9",
+        "fd059715-894e-466b-8e0f-9d01238b006f"
+    ],
+    "services": [
+        {
+            "name": "Giá điện",
+            "dvt": "Kwh",
+            "servicePrice": 1
+        },
+        {
+            "name": "Giá nước",
+            "dvt": "Người",
+            "servicePrice": 2
+        },
+        {
+            "name": "Tiền giữ xe",
+            "dvt": "Người",
+            "servicePrice": 3
+        },
+        {
+            "name": "Dịch vụ",
+            "dvt": "Người",
+            "servicePrice": 4
+        }
+    ],
+    "furnitures": [
+        {
+            "name": "Máy lạnh",
+            "price": 123
+        },
+        {
+            "name": "Tủ lạnh",
+            "price": 0
+        },
+        {
+            "name": "Tủ quần áo",
+            "price": 0
+        },
+        {
+            "name": "Nệm",
+            "price": 0
+        },
+        {
+            "name": "Máy giặt",
+            "price": 0
+        },
+        {
+            "name": "Máy nóng lạnh",
+            "price": 0
+        },
+        {
+            "name": "Kệ bếp",
+            "price": 0
+        }
+    ],
+    "commissionPolicies": [
+        {
+            "month": 2,
+            "deposit": 3,
+            "commission": 44
+        },
+        {
+            "month": 3,
+            "deposit": 5,
+            "commission": 3
+        }
+    ],
+    "brokeragePolicy": {
+        "numberOfPeople": 1,
+        "numberOfVehicle": 1,
+        "note": "ghi chú",
+        "deposit": "string",
+        "numberOfDaysKeepRoom": 5,
+        "commissionPercentage": 0,
+        "saleIncentives": "123",
+        "duration": "string"
+    }
+}
+
+lưu ý 
+"duration": "string"
+"deposit": "string"
+"commission": int
+"commissionPercentage": 0,
